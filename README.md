@@ -1,44 +1,26 @@
-# Heterogeneous Graph Contrastive Learning with Meta-path Contexts and Weighted Negative Samples (SDM 2023)
- <!--
- A heterogeneous graph contrastive learning model that considers both meta-path contexts and weighted negative samples.
- https://arxiv.org/abs/2212.13847
- -->
+# Using LLMs for Node Generation in Few-shot Learning on Text-Attributed Graphs
 
-## MEOW
-This is the source code of paper ["Heterogeneous Graph Contrastive Learning with Meta-path Contexts and Weighted Negative Samples"](https://arxiv.org/abs/2212.13847).  
-**Follow-up work AdaMEOW is in review.**
-![The proposed framework](./MEOW.png)
+## LLM4NG
 
 ## Environment Settings
-> python==3.9.0 \
-> scipy==1.8.1 \
+> python==3.8.0 \
 > torch==1.12.0 \
-> numpy==1.23.0 \
-> scikit_learn==1.1.1\
-> faiss-gpu==1.7.2
+> numpy==1.24.3 \
+> scikit_learn==1.1.1 \
+> torch-cluster==1.6.0 \
+> torch-geometric==2.3.1 \
+> torch-scatter==2.1.0 \
+> torch-sparse==0.6.16 \
+> torch-spline-conv==1.2.1 
+
 
 ## Usage
-Go into ./code_meow, and then you can use the following commend to run our model **MEOW**;  
-or go into ./code_adameow, and then you can use the following commend to run our model **AdaMEOW**: 
-> python main.py acm --gpu=0
 
-Here, "acm" can be replaced by "dblp", "aminer","imdb".
+You can use the following commend to run edge predicitor;  
 
-Some files in the './data' could not be uploaded because they were over 25MB. 
-All the data files we store in 
-url：https://pan.baidu.com/s/1vlBrC4S7EZgowGyHGF8apg 
-pwd：n84e
+> python LLM4NG.py --dataset cora --model_type Edge
 
-## Citation
-```
-@inbook{doi:10.1137/1.9781611977653.ch5,
-author = {Jianxiang Yu and Xiang Li},
-title = {Heterogeneous Graph Contrastive Learning with Meta-path Contexts and Weighted Negative Samples},
-booktitle = {Proceedings of the 2023 SIAM International Conference on Data Mining (SDM)},
-chapter = {},
-pages = {37-45},
-doi = {10.1137/1.9781611977653.ch5},
-URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611977653.ch5},
-eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611977653.ch5},
-}
-```
+You can use the following commend to get node classifcation result;  
+
+> python LLM4NG.py --dataset cora --model_type Node
+
