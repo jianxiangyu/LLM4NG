@@ -18,7 +18,7 @@
 
 You can use the following commend to run edge predicitor;  
 
-> python LLM4NG.py --dataset cora --model_type Edge
+> python edge.py --dataset cora --model_type Edge
 
 You can use the following commend to get node classifcation result;
 If you don't want to use the adjacency matrix you can set the parameter lam to -1.
