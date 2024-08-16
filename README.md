@@ -1,4 +1,4 @@
-# Using LLMs for Node Generation in Few-shot Learning on Text-Attributed Graphs
+# Leveraging Large Language Models for Node Generation in Few-Shot Learning on Text-Attributed Graphs
 
 ## LLM4NG
 
