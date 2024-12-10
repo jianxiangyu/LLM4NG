@@ -28,3 +28,7 @@ If you don't want to use the adjacency matrix you can set the parameter lam to -
 > python LLM4NG.py --dataset cora --model_type Node
 
 ## Dataset file
+Since the ogbn-arxiv dataset exceeds the size limit in github, it has been uploaded to Baidu Cloud:
+url: https://pan.baidu.com/s/15nAPDlPYDJeJzY5Mgq2amQ
+
+pwd: piw9
