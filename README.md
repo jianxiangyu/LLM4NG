@@ -2,6 +2,8 @@
 
 ## LLM4NG
 
+![The proposed framework](./LLM4NG.png)
+
 ## Environment Settings
 > python==3.8.0 \
 > torch==1.12.0 \
@@ -25,3 +27,4 @@ If you don't want to use the adjacency matrix you can set the parameter lam to -
 
 > python LLM4NG.py --dataset cora --model_type Node
 
+## Dataset file
