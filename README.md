@@ -1,4 +1,4 @@
-# Leveraging Large Language Models for Node Generation in Few-Shot Learning on Text-Attributed Graphs
+# Leveraging Large Language Models for Node Generation in Few-Shot Learning on Text-Attributed Graphs (AAAI 2025)
 
 ## LLM4NG
 
@@ -33,3 +33,16 @@ Since the ogbn-arxiv dataset exceeds the size limit in github, it has been uploa
 url: https://pan.baidu.com/s/15nAPDlPYDJeJzY5Mgq2amQ
 
 pwd: piw9
+
+
+<!-- ## Citation
+```
+@article{yu2023empower,
+  title={Empower text-attributed graphs learning with large language models (llms)},
+  author={Yu, Jianxiang and Ren, Yuxiang and Gong, Chenghua and Tan, Jiaqi and Li, Xiang and Zhang, Xuecang},
+  journal={arXiv preprint arXiv:2310.09872},
+  year={2023}
+}
+``` -->
+
+
